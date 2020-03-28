@@ -1,0 +1,110 @@
+.app-body {
+  background: rgb(224, 223, 223);
+  height: 625px;
+  left: 275px;
+  right: 100px;
+  top: 70px;
+}
+
+.projects {
+  position: absolute;
+  height: 300px;
+  left: 275px;
+  right: 100px;
+  top: 70px;
+  min-width: 72%;
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgb(129, 128, 128);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 12;
+  font-weight: normal;
+}
+
+.to-do {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my-label {
+  margin: 2px;
+}
+
+.make-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.make-round:checked {
+  background-color: gray;
+}
+.side-bar {
+  position: absolute;
+  width: 278px;
+  height: 600px;
+  left: -20px;
+  top: 55px;
+  padding: 20px;
+  font-size: calc(10px + 2vmin);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgb(129, 128, 128);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 12;
+  font-weight: normal;
+  z-index: 1;
+}
+.side-text-1 {
+  position: absolute;
+  width: 183px;
+  height: 68px;
+  left: 52px;
+  top: 235px;
+  margin: 5px;
+}
+.side-text-2 {
+  position: absolute;
+  width: 163px;
+  height: 150px;
+  left: 52px;
+  top: 350px;
+  margin: 5px;
+}
+
+.img1 {
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  top: 60px;
+  position: absolute;
+  width: 180px;
+  height: 162px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background: url("https://tinyurl.com/vk2vvhq");
+}

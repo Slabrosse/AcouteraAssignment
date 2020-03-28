@@ -1,0 +1,8 @@
+.progress-bar {
+  background-color: rgb(209, 69, 69);
+  width: calc(var(width * 1%));
+}
+
+.progress {
+  background-color: rgb(231, 228, 228);
+}
